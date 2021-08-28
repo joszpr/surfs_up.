@@ -1,21 +1,19 @@
 # Surf_Up_Analysis
 
-### **Overview** ###
+## **Overview** ##
 
 Weather analysis performed as part of the business plan for Surf N Shake shop intended for development at Oahu island, Hawaii. The shop concept is to provide a location that can sell products and services related to surfing along with selling ice cream as comfort in sunny days. The results of the analysis will be presented to the board of investors alongside primary investor, W. Avy. The goal was to find any useful insights regarding the amount of rain that is to be expected during a year and temperature fluctuations in the island that may impact the success and profitability of the surf shop. 
 
-### **Methodology** ###
+## **Methodology** ##
 
 The analysis utilized a weather dataset that recorded different environmental metrics at Oahu during the years 2010 until the last months of 2017. The data contained daily metrics from 9 different weather stations around the island. Every station measured temperatures and precipitation amount daily. The data was processed using Python via Jupyter Notebook with the inclusion of SQLAlchemy and SQLite. 
 
-### **Results** ###
+## **Results** ##
 
 **1.	Temperature statistics for the months of June and December between 2010 and 2017.**
 
-###### June Temperature Summary Statistics ######
-![June Summary statistics](https://user-images.githubusercontent.com/85839235/131043573-6eb3b31f-4b21-4154-9543-d79e5f3fbc26.png)
-###### December Temperature Summary Statistics ######
-![December Summary statistics](https://user-images.githubusercontent.com/85839235/131043588-d883ef19-666a-44de-a732-8df6ae0dc08b.png)
+![Temperature Summary Distribution](https://user-images.githubusercontent.com/85839235/131205606-854b2006-7597-4091-acc3-a451d29e3277.jpg)
+
 
 -    The average temperature for June was 74.9 °F and for December was 71 °F. 
 -    The maximum temperature for June was 85 °F and for December was 83 °F. 
@@ -23,36 +21,33 @@ The analysis utilized a weather dataset that recorded different environmental me
 
 **2.	Precipitation statistics for the months of June and December between 2010 and 2017.**
 
-###### June Precipitation Summary Statistics ######
-![June Precipitation Summary statistics](https://user-images.githubusercontent.com/85839235/131043718-dfbd3bc5-96eb-4865-934a-a7c023c4a6a0.png)
+![Precipitation Summary Distribution](https://user-images.githubusercontent.com/85839235/131205615-d97fb9bb-bf9e-4fb9-b3f3-72d7b2f890de.jpg)
 
-###### December Precipitation Summary Statistics ######
-![December Precipitation Summary statistics](https://user-images.githubusercontent.com/85839235/131043741-4d4f46a0-5777-446a-a887-198713681c9f.png)
 
-    -	The average precipitation for June was 0.14 mm and for December was 0.22 mm. 
-    -	The maximum precipitation for June was 4.43 mm and for December was 6.42 mm. 
-    -	The minimum precipitation for was 0 for the days when no rain was recorded. 
+-	The average precipitation for June was 0.14 mm and for December was 0.22 mm. 
+-	The maximum precipitation for June was 4.43 mm and for December was 6.42 mm. 
+-	The minimum precipitation for was 0 for the days when no rain was recorded. 
 
 **3.	Comprehensive Temperature Analysis**
 
-    -	Frequency distribution of temperature fluctuations using all the yearly data.
+###### Frequency distribution of temperature fluctuations using all the yearly data. ######
 ![Temperature Distribution](https://user-images.githubusercontent.com/85839235/131043842-6b950937-5b46-422c-a872-9627a80863f2.png)
 
-    -	Average temperature fluctuations by month using all the yearly data.
+###### Average temperature fluctuations by month using all the yearly data. ######
 
 ![Monthly Average Temperature](https://user-images.githubusercontent.com/85839235/131043865-65100c0f-fda1-4dcc-a2e8-861db8456de2.png)
 
 **4.	Comprehensive Precipitation Analysis**
 
-    -	Frequency distribution of precipitation fluctuations using all the yearly data.
+-	Frequency distribution of precipitation fluctuations using all the yearly data.
     
 ![Precipitation Distribution](https://user-images.githubusercontent.com/85839235/131043892-fac9cccb-216b-41ed-9e60-6a43ec318c71.png)
 
-    -	Average temperature fluctuations by month using all the yearly data.
+-	Average temperature fluctuations by month using all the yearly data.
 ![Monthly Average Precipitation](https://user-images.githubusercontent.com/85839235/131043910-f84cd204-d23f-4d37-8976-25251b8e08a4.png)
 
 
-### **Summary** ###
+## **Summary** ##
 1.	The original focus of the analysis was regarding the temperature data for the months of June and December. The temperature summary statistics shows a slight difference in the average temperature between the two months, 74.9 °F for June and 71 °F for December. The Maximum temperature followed a similar pattern, 85 °F for June and 83 °F for December. Where the two months differed the most was in the minimum temperatures, 64 °F and 56 °F respectively. There seems to be little fluctuations in temperatures between the two months and provide good conditions for surfing which would attract tourists and locals. 
 
 2.	Additional analysis was performed with focus on the months of June and December regarding the precipitation amount the island received. With the insights provided in the Precipitation Summary Statistics, the data shows that June received less days of rain compared to December. The pattern remains the same on for the heaviest rainfalls. Another noteworthy trend is that the data is heavily skewed between the Average values and the Minimum Value of 0, for both months. This shows that most days there wasn’t any recorded precipitation and the Maximum values recorded seem to be outlier values and those heavier rainfall seem to be infrequent. 
@@ -61,7 +56,7 @@ The analysis utilized a weather dataset that recorded different environmental me
 
 4. 	The data was parsed in order to compare the Temperature and Precipitation variables my month in order to inquire about any possible patterns. The Monthly Average Temperature chart shows the warmer months to be in the summertime, which is expected due to the location of the island in comparison to the equator. The Monthly Average Precipitation chart demonstrates which months tend to be the ones with more frequency and amount of rain within the years of data. The highest precipitation seems to be during December with November leading up to it. The second month with highest precipitation is March. 
 
-### **Conclusions** ###
+## **Conclusions** ##
 
 1. 	Oahu seems to have steady yearly temperature fluctuations which would be prime for local surfers to frequent the beach and tourist to travel and increase foot traffic for a surfing and ice cream store. 
 
